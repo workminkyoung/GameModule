@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class Item : MonoBehaviour
+/// <summary>
+/// 기본 아이템 클래스
+/// </summary>
+[System.Serializable]
+public class Item
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string itemName;
+    public Sprite icon;
+    public int maxStack;
 
-    // Update is called once per frame
-    void Update()
+    public Item(string name, Sprite icon, int maxStack = 1)
     {
-        
+        this.itemName = name;
+        this.icon = icon;
+        this.maxStack = maxStack;
     }
 }
