@@ -7,7 +7,7 @@ public class SampleInventoryController : MonoBehaviour
 
     private void Start()
     {
-        _inventoryPage.InitializeInventoryUI(20);
+        //_inventoryPage.InitializeInventoryUI(20);
     }
 
     // Update is called once per frame

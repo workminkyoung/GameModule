@@ -7,6 +7,6 @@ public class UIInventoryItem : MonoBehaviour, IDropHandler
     //private Image
     public void OnDrop(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        //throw new System.NotImplementedException();
     }
 }

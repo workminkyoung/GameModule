@@ -524,9 +524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5effcba1a9ef943b9adadfd003c45b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemPrefab: {fileID: 1407376413044390591, guid: 3ef4b3d438ca060459bb2ec9ffe07c68, type: 3}
+  _itemPrefab: {fileID: 1519038703169519769, guid: 3ef4b3d438ca060459bb2ec9ffe07c68, type: 3}
   _contentPanel: {fileID: 2230719285996509371}
-  _inventoryItems: []
+  _inventorySlots: []
 --- !u!1 &7831662982446104364
 GameObject:
   m_ObjectHideFlags: 0
